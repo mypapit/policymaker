@@ -4,7 +4,12 @@ PolicyMaker is a lightweight PHP and SQLite web application for creating, managi
 
 It includes an administrator-only Privacy Policy wizard that generates structured policy text from simple yes/no, radio, checkbox, and text-field inputs. Each generated policy receives a permanent `policy_id` that can be activated and displayed publicly.
 
-![PolicyMaker Screenshot](https://blog.mypapit.net/wp-content/uploads/2026/07/Screenshot-2026-07-02-150407.png)
+
+![PolicyMaker Dashboard Screenshot](https://blog.mypapit.net/wp-content/uploads/2026/07/Screenshot-2026-07-02-150407.png)
+
+
+![PolicyMaker Policy Wizard Screenshot](https://blog.mypapit.net/wp-content/uploads/2026/07/Screenshot-2026-07-02-151513.png)
+
 
 ## Features
 
