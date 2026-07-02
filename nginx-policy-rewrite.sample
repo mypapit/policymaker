@@ -1,0 +1,11 @@
+# Sample Nginx rewrite rules for prettier public policy URLs.
+# Adjust /policymaker if this app is installed at another path.
+
+location /policymaker/policy/ {
+    rewrite ^/policymaker/policy/([0-9]+)/?$ /policymaker/view.php?policy_id=$1 last;
+}
+
+location /policymaker/privacy-policy/ {
+    rewrite ^/policymaker/privacy-policy/([0-9]+)/?$ /policymaker/view.php?policy_id=$1 last;
+}
+
